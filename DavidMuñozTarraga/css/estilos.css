@@ -1,0 +1,145 @@
+title{
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(214, 243, 243);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    /*degradado para el header */
+    background: linear-gradient(to top, #456270, #00ccff);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.nav-link{
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.sobre-mi{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.sobre-mi div{
+    width: 60%;
+}
+
+.sobre-mi img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    /*sombra para las tarjetas */
+    box-shadow: 0 3px 8px gray;
+}
+
+.content{
+    width: 75%;
+    padding: 32px;
+    gap: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aficiones{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+
+.aficion-d{
+    text-align: center;
+    padding: 8px;
+}
+
+.aficiontit{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.aficion{
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px gray;
+}
+
+.aficion img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #00ccff;
+}
+
+p{
+    font-size: 20px;
+}
+
+table, td, th{
+    border: 2px solid black;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    height: 60%;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 23px;
+}
+
+.formulario{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 400px;
+    align-content: center;
+}
